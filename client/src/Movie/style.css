@@ -1,0 +1,78 @@
+.card-wrapper {
+    background-color: var(--item-color);
+    color: var(--font-color);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px var(--font-color);
+    padding: 1rem;
+    min-height: 240px;
+}
+
+.card-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.metadata-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-date-container, .card-id-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title-wrapper {
+    min-height: 60px;
+}
+
+.card-title-container {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-movie-date, .card-movie-id {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratings-wrapper {
+    padding: .5rem;
+}
+
+.ratings-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ratings-item {
+    background-color: var(--rating-block-color);
+    color: var(--font-color);
+    border-radius: 4px;
+    padding: .5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.ratings-item:hover {
+    background-color: var(--hover-color);
+    color: var(--background-color);
+}
